@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+        <!--Navigation Bar-->
+        <nav class="navbar nav-tabs fixed-top navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+    
+                <!--Navigation bar title inline CSS-->
+                <a class="navbar-brand" style="color: #DEB6AB; font-weight: bolder;" href="homepage.html">Takımlar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+    
+                    <!--Navigation bar items inline CSS-->
+    
+                        <!--Homepage button-->
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #F8ECD1;" aria-current="page" href="homepage.html">Homepage</a>
+                        </li>
+    
+                        <!--About Us button-->
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #F8ECD1;" href="about.html">About Us</a>
+                        </li>
+    
+                        <!--Products button-->
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link active dropdown-toggle" style="color: #F8ECD1;" href="products.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Formalar
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" style="color: #F8ECD1;" href="Takımlar.html">Takımlar</a></li>
+                                <li><a class="dropdown-item" style="color: #F8ECD1;" href="Galatasaray.html">Galatasaray</a></li>
+                                <li><a class="dropdown-item" style="color: #F8ECD1;" href="Trabzon.html">Trabzon</a></li>
+                                <li><a class="dropdown-item" style="color: #F8ECD1;" href="Beşiktaş.html">Beşiktaş</a></li>
+                                <li><a class="dropdown-item" style="color: #F8ECD1;" href="Fenerbahçe.html">Fenerbahçe</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navigation Bar End-->
+
+        
+        <div class="productTitle">
+            <h1 style="font-weight: 400; font-size: 56px; margin-top: 90px;">Takımlar</h1>
+        </div>
+
+        <!--Container for product card components-->
+        <div class="container">
+
+            <div class="card-group">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Galatasaray</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at veniam alias voluptatum, sunt culpa dicta quos itaque odit ea!</p>
+                    <img src="gs/gs.png" class="card-img-top" style="width: 80%;">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="Galatasaray.html">Shop Now</a>
+                    </button>
+                </div>
+
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Trabzon</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ab dolores aliquam nihil ea eaque quisquam quas.</p>
+                    <img src="ts/ts.png" class="card-img-top" style="width: 80%;">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="Trabzon.html">Shop Now</a>
+                    </button>
+                  </div>
+                  
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Beşiktaş</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus sint atque excepturi harum cupiditate. ? Illum, incidunt nisi.</p>
+                    <img src="bjk/bjk.png" class="card-img-top" style="width: 80%;">
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="Beşiktaş.html">Shop Now</a>
+                    </button>
+                  </div>                  
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Fenerbahçe</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at veniam alias voluptatum, sunt culpa dicta quos itaque odit ea!</p>
+                      <img src="fb/fb.png" class="card-img-top" style="width: 80%;">
+                      <button type="button" class="btn btn-outline-secondary">
+                          <a href="Fenerbahçe.html">Shop Now</a>
+                      </button>
+                  </div>
+  
+                  </div>
+              </div>
+        </div>
+</body>
+</html>
